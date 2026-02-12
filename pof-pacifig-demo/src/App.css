@@ -1,0 +1,4 @@
+/* App Styles moved to index.css and component-specific files */
+.App {
+  min-height: 100vh;
+}

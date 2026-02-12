@@ -1,0 +1,197 @@
+
+export const translations = {
+    // Role Gate
+    "role.owner": { th: "เจ้าของ", en: "Owner" },
+    "role.manager": { th: "ผู้จัดการ", en: "Manager" },
+    "role.operator": { th: "ผู้ปฏิบัติงาน", en: "Operator" },
+    "role.select": { th: "เลือกบทบาท", en: "Select Your Role" },
+    "role.owner.desc": { th: "ภาพรวมระดับผู้บริหาร", en: "Executive Overview" },
+    "role.manager.desc": { th: "วางแผน & จัดการ", en: "Planning & Operations" },
+    "role.operator.desc": { th: "ปฏิบัติงานการผลิต", en: "Execute Production" },
+
+    // Login
+    "login.title": { th: "เข้าสู่ระบบ", en: "Login" },
+    "login.username": { th: "ชื่อผู้ใช้", en: "Username" },
+    "login.password": { th: "รหัสผ่าน", en: "Password" },
+    "login.submit": { th: "เข้าสู่ระบบ", en: "Sign In" },
+    "login.demo": { th: "ข้อมูลทดสอบ", en: "Demo Credentials" },
+    "login.back": { th: "กลับ", en: "Back" },
+
+    // Dashboard KPIs
+    "kpi.oee": { th: "OEE วันนี้", en: "OEE Today" },
+    "kpi.output": { th: "ผลผลิต vs แผน", en: "Output vs Plan" },
+    "kpi.load": { th: "โหลดเครื่องจักร", en: "Machine Load" },
+    "kpi.blocked": { th: "งานติดขัด", en: "Blocked Jobs" },
+    "kpi.overrides": { th: "การแทรกแซงวันนี้", en: "Overrides Today" },
+
+    // Dashboard Sections
+    "dash.urgent": { th: "งานเร่งด่วน", en: "Urgent Lane" },
+    "dash.soflow": { th: "กระแสการผลิต", en: "SO Flow River" },
+    "dash.stations": { th: "สถานี", en: "Stations" },
+
+    // SO Detail
+    "so.overview": { th: "ภาพรวม", en: "Overview" },
+    "so.plan": { th: "แผน", en: "Plan Table" },
+    "so.timeline": { th: "ไทม์ไลน์", en: "Timeline" },
+    "so.history": { th: "ประวัติ", en: "History" },
+    "so.number": { th: "เลขที่ SO", en: "SO Number" },
+    "so.customer": { th: "ลูกค้า", en: "Customer" },
+    "so.due": { th: "กำหนดส่ง", en: "Due Date" },
+    "so.priority": { th: "ลำดับความสำคัญ", en: "Priority" },
+    "so.urgent": { th: "เร่งด่วน", en: "Urgent" },
+
+    // Machine Detail
+    "machine.status": { th: "สถานะเครื่องจักร", en: "Machine Status" },
+    "machine.utilization": { th: "ประสิทธิภาพการใช้งาน", en: "Utilization" },
+    "machine.queue": { th: "คิวงาน", en: "Job Queue" },
+    "machine.previous": { th: "งานก่อนหน้า", en: "Previous" },
+    "machine.current": { th: "งานปัจจุบัน", en: "Current" },
+    "machine.next": { th: "งานถัดไป", en: "Next" },
+    "machine.logs": { th: "บันทึก", en: "Logs" },
+
+    // Operator
+    "op.station_title": { th: "สถานีผู้ปฏิบัติงาน", en: "Operator Station" },
+    "op.my_worklist": { th: "รายการงานของฉัน", en: "My Worklist" },
+    "op.today": { th: "วันนี้", en: "Today" },
+    "op.tomorrow": { th: "พรุ่งนี้", en: "Tomorrow" },
+    "op.active_machine": { th: "เครื่องจักรที่ทำงานอยู่", en: "Active Machine" },
+    "op.shift_progress": { th: "ความคืบหน้ากะ", en: "Shift Progress" },
+    "op.running_optimal": { th: "ทำงานได้ตามเป้าหมาย", en: "RUNNING AT OPTIMAL CAPACITY" },
+    "op.seq_time": { th: "ลำดับ & เวลา", en: "Sequence & Time" },
+    "op.work_order": { th: "ใบสั่งงาน", en: "Work Order" },
+    "op.specifications": { th: "ข้อกำหนด", en: "Specifications" },
+    "op.status": { th: "สถานะ", en: "Status" },
+    "op.command": { th: "สั่งการ", en: "Command" },
+    "op.execute": { th: "ดำเนินการ", en: "Execute" },
+    "op.finish": { th: "เสร็จงาน", en: "Finish" },
+    "op.resume": { th: "ทำต่อ", en: "Resume" },
+    "op.submitted": { th: "ส่งงานแล้ว", en: "SUBMITTED" },
+    "op.pause_request": { th: "แจ้งหยุดงานชั่วคราว", en: "System Pause Request" },
+    "op.pause_reason": { th: "ระบุเหตุผลการหยุด...", en: "Select Pause Reason..." },
+    "op.pause_maint": { th: "ซ่อมบำรุงเครื่องจักร", en: "Mechanical Maintenance" },
+    "op.pause_material": { th: "วัตถุดิบขาด", en: "Material Depletion" },
+    "op.pause_shift": { th: "เปลี่ยนกะงาน", en: "Shift Changeover" },
+    "op.pause_other": { th: "ปัจจัยการผลิตอื่นๆ", en: "Operational Variable" },
+    "op.abort": { th: "ยกเลิก", en: "Abort" },
+    "op.confirm_pause": { th: "ยืนยันการหยุด", en: "Confirm Pause" },
+    "op.wo_assign": { th: "การมอบหมายใบสั่งงาน", en: "Work Order Assignment" },
+    "op.tech_specs": { th: "ข้อมูลจำเพาะทางเทคนิค", en: "Technical Specifications" },
+    "op.qc_checklist": { th: "รายการตรวจสอบคุณภาพ", en: "Quality Control Checklist" },
+    "op.prod_station": { th: "สถานีการผลิต", en: "Production Station" },
+    "op.machine_assigned": { th: "เครื่องจักรที่ได้รับมอบหมาย", en: "Machine Assigned" },
+    "op.material": { th: "วัสดุ/วัตถุดิบ", en: "Substrate Material" },
+    "op.ink_set": { th: "ชุดสี/เคมีภัณฑ์", en: "Chemical / Ink Set" },
+    "op.qc_1": { th: "ตรวจสอบการตั้งค่าเครื่องจักร", en: "Validate mechanical alignment" },
+    "op.qc_2": { th: "ตรวจสอบความถูกต้องของสี (ΔE < 2.0)", en: "Verify color consistency (ΔE < 2.0)" },
+    "op.qc_3": { th: "ตรวจสอบอุณหภูมิการอบ (180°C)", en: "Monitor cure temperature (180°C)" },
+
+    // Stations
+    "station.s1": { th: "S1: Slitting/Rewinding", en: "S1: Slitting/Rewinding" },
+    "station.s2": { th: "S2: พิมพ์", en: "S2: Printing" },
+    "station.s3": { th: "S3: พับ", en: "S3: Folding" },
+    "station.s4": { th: "S4: ตัด/Die Cut", en: "S4: Final Cutting/Die Cutting" },
+
+    // Status
+    "status.running": { th: "กำลังทำงาน", en: "Running" },
+    "status.idle": { th: "ว่าง", en: "Idle" },
+    "status.blocked": { th: "ติดขัด", en: "Blocked" },
+    "status.setup": { th: "ตั้งค่า", en: "Setup" },
+    "status.down": { th: "เสีย", en: "Down" },
+    "status.done": { th: "เสร็จสิ้น", en: "Done" },
+    "status.queued": { th: "รอคิว", en: "Queued" },
+
+    // Actions
+    "action.close": { th: "ปิด", en: "Close" },
+    "action.save": { th: "บันทึก", en: "Save" },
+    "action.cancel": { th: "ยกเลิก", en: "Discard" },
+    "action.confirm": { th: "ยืนยัน", en: "Confirm" },
+    "action.back": { th: "กลับ", en: "Back" },
+
+    // Dashboard UI
+    "dash.welcome": { th: "ยินดีต้อนรับกลับ", en: "Welcome back" },
+    "dash.live": { th: "ระบบเปิดใช้งานอยู่", en: "System Live" },
+    "dash.ops": { th: "การปฏิบัติงาน", en: "Operations" },
+    "dash.output_log": { th: "ประวัติผลผลิต", en: "Output Log" },
+    "dash.urgent_req": { th: "งานเร่งด่วนที่ต้องดำเนินการ", en: "Urgent Requirements" },
+    "dash.prod_seq": { th: "ลำดับการผลิต", en: "Production Sequence" },
+    "dash.new_load": { th: "เพิ่มงานผลิตใหม่", en: "New Production Load" },
+    "dash.global_info": { th: "ข้อมูลทั่วไป", en: "GLOBAL INFORMATION" },
+    "dash.schedule": { th: "ตารางเวลาการรวมข้อมูล", en: "INTEGRATION SCHEDULE" },
+    "dash.routing": { th: "เส้นทางการผลิต", en: "PRODUCTION ROUTING" },
+    "dash.add_step": { th: "เพิ่มขั้นตอน", en: "Add Step" },
+    "dash.integrate": { th: "ยืนยันและวางแผน", en: "Integrate & Schedule" },
+    "dash.live_feed": { th: "ดูข้อมูลสด", en: "View Live Feed" },
+    "dash.oee_breakdown": { th: "รายละเอียด OEE", en: "OEE Breakdown" },
+    "dash.issues": { th: "ปัญหาปัจจุบัน", en: "Current Issues" },
+    "dash.station_load": { th: "โหลดงานแยกตามสถานี", en: "Machine Load by Station" },
+
+    // Operations / Table
+    "op.search_placeholder": { th: "ค้นหา SO หรือ เครื่องจักร...", en: "Search SO or Machine..." },
+    "op.ai_grouping": { th: "AI การจัดกลุ่ม", en: "AI Grouping" },
+    "op.all_priorities": { th: "ทุกความสำคัญ", en: "All Priorities" },
+    "op.sql_mode": { th: "โหมด SQL", en: "SQL Mode" },
+    "op.sql_console": { th: "คอนโซลระบบอัตโนมัติ SQL", en: "SQL Automation Console" },
+    "op.sql_hint": { th: "ป้อนคำสั่ง SQL มาตรฐาน ใช้ ? เป็นชื่อตาราง", en: "Enter standard SQL query. Use ? as table name." },
+    "op.today": { th: "วันนี้", en: "Today" },
+    "op.tomorrow": { th: "พรุ่งนี้", en: "Tomorrow" },
+
+    // Priorities
+    "priority.urgent": { th: "ด่วนที่สุด", en: "Urgent" },
+    "priority.high": { th: "สูง", en: "High" },
+    "priority.normal": { th: "ปกติ", en: "Normal" },
+    "priority.low": { th: "ต่ำ", en: "Low" },
+
+    // Tabs & Sections
+    "tab.overview": { th: "ภาพรวมการดำเนินงาน", en: "Operational Overview" },
+    "tab.plan": { th: "แผนการดำเนินงาน", en: "Route Plan" },
+    "tab.history": { th: "บันทึกการตรวจสอบ", en: "Audit Log" },
+    "tab.diagnostics": { th: "การวินิจฉัยสถานี", en: "Station Diagnostics" },
+
+    // Technical / QC
+    "tech.specs": { th: "ข้อมูลจำเพาะทางเทคนิค", en: "Technical Specifications" },
+    "tech.station": { th: "สถานีการผลิต", en: "Production Station" },
+    "tech.machine": { th: "เครื่องจักรที่ได้รับมอบหมาย", en: "Machine Assigned" },
+    "tech.material": { th: "วัสดุ/วัตถุดิบ", en: "Substrate Material" },
+    "tech.ink": { th: "ชุดสี/เคมีภัณฑ์", en: "Chemical / Ink Set" },
+    "qc.checklist": { th: "รายการตรวจสอบคุณภาพ", en: "Quality Control Checklist" },
+    "qc.color": { th: "ตรวจสอบสีตามตัวอย่าง", en: "Validate color consistency" },
+    "qc.distance": { th: "เช็คระยะตัดและรอยพับ", en: "Verify cut & fold alignment" },
+    "qc.cleanliness": { th: "สุ่มตรวจความสะอาดผิวชิ้นงาน", en: "Random surface cleanliness check" },
+
+    // Metrics
+    "metric.availability": { th: "ความพร้อมใช้งาน", en: "Availability" },
+    "metric.performance": { th: "ประสิทธิภาพ", en: "Performance" },
+    "metric.quality": { th: "คุณภาพ", en: "Quality" },
+    "metric.speed": { th: "ความเร็วมาตรฐาน", en: "Standard Speed" },
+    "metric.load": { th: "โหลดที่ใช้", en: "Utilized Load" },
+    "metric.active": { th: "เครื่องที่ทำงาน", en: "Active Units" },
+    "metric.maint": { th: "ปัญหาซ่อมบำรุง", en: "Maint. Issues" },
+
+    // Feedback
+    "msg.telemetry": { th: "กำลังเข้าถึงข้อมูลเครื่องจักรแบบเรียลไทม์...", en: "Accessing real-time machine telemetry..." },
+    "msg.scheduling": { th: "กำลังวางแผนการผลิต...", en: "Scheduling..." },
+    "msg.success": { th: "เสร็จสมบูรณ์!", en: "Success!" },
+    "msg.redirect": { th: "กำลังเปลี่ยนหน้าอัตโนมัติ...", en: "Auto-redirecting..." },
+    "msg.no_jobs": { th: "ไม่มีงานในคิว", en: "No active jobs in queue" },
+    "msg.no_logs": { th: "ไม่มีบันทึกข้อมูล", en: "No logs available" },
+    "msg.job_started": { th: "เริ่มงานแล้ว", en: "Job Started" },
+    "msg.job_paused": { th: "พักงานชั่วคราว", en: "Job Paused" },
+    "msg.job_completed": { th: "งานเสร็จสิ้น!", en: "SO Completed!" },
+    "msg.submitted": { th: "ได้รับการส่งเรื่องแล้ว", en: "submitted for approval" },
+
+    // Common
+    "common.eta": { th: "เวลาโดยประมาณ", en: "ETA" },
+    "common.variance": { th: "ความแตกต่าง", en: "Variance" },
+    "common.risk": { th: "ความเสี่ยง", en: "Risk" },
+    "common.high": { th: "สูง", en: "High" },
+    "common.medium": { th: "ปานกลาง", en: "Medium" },
+    "common.low": { th: "ต่ำ", en: "Low" },
+    "common.units": { th: "หน่วย", en: "Units" },
+    "common.hours": { th: "ชม.", en: "hrs" },
+    "common.minutes": { th: "นาที", en: "min" },
+    "common.target": { th: "เป้าหมาย", en: "Target" },
+    "common.started": { th: "เริ่มเมื่อ", en: "Started" },
+    "common.end": { th: "สิ้นสุดโดยประมาณ", en: "Est. End" },
+    "common.report_down": { th: "แจ้งเครื่องเสีย", en: "Report Down" },
+    "common.log_status": { th: "บันทึกสถานะ", en: "Log Status" },
+};
